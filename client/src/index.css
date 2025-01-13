@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: aliceblue;
+  display: flex;
+  padding: 1.5rem;
+}
+
+.navbar ul li {
+  font-size: 1.5rem;
+}
+
+.navbar input[type="text"] {
+  margin-left: auto;
+  margin-right: 0.5rem;
+  padding-left: 1rem;
+}
+
+.navbar input[type="submit"] {
+  background-color: white;
+  border: 0.01px solid black;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+.navbar input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+  transition: 0.6s ease all;
+}
+
+.home {
+  margin-top: 5rem;
+}
+
+.home button {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.home .dataTable table {
+   margin-inline: auto;
+}
+
+.home .dataTable table tr th {
+  padding: 0.2rem;
+}
+
+.home .dataTable table tr td {
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.addData {
+  margin-top: 5rem;
+}
+
+.addData h1 {
+  text-align: center;
+}
+
+.addData form {
+  display: grid;
+  margin-inline: 20rem;
+}
+
+.addData form input, .addData form textarea {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.addData form input[type="submit"] {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.addData form input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+  transition: 0.6s ease all;
+}
+
+.userData {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.div p {
+  padding-top: 0.5rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 17.63rem;
+}
